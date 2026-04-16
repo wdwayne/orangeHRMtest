@@ -52,10 +52,10 @@ Initial exploratory testing was conducted to understand system functionality, id
 ## Leave management features:
 - Leave list search
 - Filters:
-- --From date
-- --To date
-- --Leave status
-- --Leave type
+    - From date
+    - To date
+    - Leave status
+    - Leave type
 
 # User types
 Possible User Roles
