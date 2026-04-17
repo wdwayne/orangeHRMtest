@@ -32,3 +32,39 @@ Medium
 **Notes**
 - Error message may expose internal security mechanisms
 - System should handle invalid input gracefully and return a generic error message
+
+### OHRM-BUG-002 – Dashboard Accessible via Browser Back Button After Logout
+
+**Environment**
+- Application: OrangeHRM Demo
+- Browser: Google Chrome
+- Device: Desktop
+
+**Description**
+After logging out of the application, navigating back using the browser back button allows the user to view the dashboard page without re-authentication.
+
+**Preconditions**
+- User is logged into the application
+
+**Steps to Reproduce**
+1. Log in with valid credentials
+2. Click the Logout option
+3. Click the browser back button
+
+**Expected Result**
+- User is redirected to the login page
+- Protected pages (e.g., dashboard) should not be accessible after logout
+
+**Actual Result**
+- Dashboard page is displayed after clicking the back button
+
+**Severity**
+High
+
+**Priority**
+High
+
+**Notes**
+- This may be due to browser caching of authenticated pages
+- Sensitive information may be exposed to unauthorized users
+- Proper cache-control headers or session validation should be enforced
