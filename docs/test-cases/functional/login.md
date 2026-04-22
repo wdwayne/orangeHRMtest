@@ -1,5 +1,5 @@
 ID
-### OHR-TC-001
+### OHRM-TC-001
 **Description**
 - Verify that a registered user can successfully login using a valid username and password.
 **Preconditions**
@@ -12,7 +12,7 @@ ID
 **Expected Result**
 - User is successfully logged in and redirected to the dashboard page.
 
-### OHR-TC-002
+### OHRM-TC-002
 **Description**
 - Verify that login fails when a valid username is entered with an incorrect password
 **Preconditions**
@@ -25,7 +25,7 @@ ID
 **Expected Results**
 - login page refreshes and displays the message "invalid credentials".
 
-### OHR-TC-003
+### OHRM-TC-003
 **Description**
 - Attempt to login with a valid username and empty password field.
 **Preconditions**
@@ -38,7 +38,7 @@ ID
 **Expected results**
 - Password field is highlighted red and the message "Required" is displayed under the password field.
 
-### OHR-TC-004
+### OHRM-TC-004
 **Description**
 - Attempt to submit the login form with both username and password fields empty.
 **Preconditions**
@@ -49,7 +49,7 @@ ID
 **Expected Results**
 - Both the username and the password fields are highlighted red and a message "Required" is displayed under both fields.
 
-### OHR-TC-005
+### OHRM-TC-005
 **Description** 
 - Verify that an unregistered user is unable to login.
 **Precondition**
@@ -61,7 +61,7 @@ ID
 **Expected Results**
 - Login page refreshes and the message "invalid credentials" is displayed.
 
-### OHR-TC-006
+### OHRM-TC-006
 **Description**
 - Verify that a registered user is able to successfully login using the enter button.
 **Preconditions**
@@ -75,7 +75,7 @@ ID
 **Expected Results**
 - User is successfully logged in and redirected to the dashboard page.
 
-### OHR-TC-007
+### OHRM-TC-007
 **Description**
 - Verify that a registered user is unable to successfully login if the incorrect password casing is used.
 **Precondition**
@@ -90,7 +90,7 @@ ID
 - User stays on the login page.
 - Message "invalid credentials" is displayed.
 
-### OHR-TC-008
+### OHRM-TC-008
 **Description**
 - Verify system behavior when SQL injection is attempted in login fields.
 **Preconditions**
