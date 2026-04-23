@@ -73,8 +73,6 @@ docs/
 ├── test-cases/
 ├── bug-reports/
 ├── reports/
-automation/
-tools/
 
 
 ---
