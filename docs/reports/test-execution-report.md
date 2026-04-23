@@ -1,7 +1,7 @@
 ## Test Execution Summary – OrangeHRM
 
-Total Test Cases: 25 
-Passed: 22  
+Total Test Cases: 29 
+Passed: 26  
 Failed: 3  
 Blocked: 0  
 

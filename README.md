@@ -19,7 +19,6 @@ The goal of this project is to demonstrate real-world QA skills in identifying d
 - Login functionality
 - Navigation modules
 - Employee management (PIM)
-- Leave management
 - Dashboard features
 
 ### Out of Scope

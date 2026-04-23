@@ -87,8 +87,7 @@ Employee
 ## In Scope
 - Login functionality
 - Navigation modules
-- Employee management
-- Leave management
+- Employee management(PIM)
 - Dashboard widgets
 
 ## Out of Scope

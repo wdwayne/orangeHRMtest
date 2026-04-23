@@ -13,7 +13,6 @@ This test plan outlines the testing approach for the OrangeHRM application. Oran
 - Login functionality
 - Navigation modules
 - Employee management
-- Leave management
 - Dashboard widgets
 
 *Out of Scope*
